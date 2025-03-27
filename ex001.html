@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        body {
+            background-color: grey;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        #text {
+            color: red;
+            font-size: 1.2em;
+        }
+    </style>
+<body>
+    <h1>OLÁ MUNDO</h1>
+    <h2>Curso de js da curso em vídeo!</h2>
+ 
+    <script >
+        window.alert('Minha primeira mensagem');
+       
+
+        const confirming = window.confirm("Está gostando?");
+        const nome = window.prompt("Qual o seu nome?");
+        const p = document.getElementById("mensagem");
+        const anert = document.getElementById("alert");
+        const n1 = Number(window.prompt("Valor numério 1"));
+        const n2 = Number(window.prompt("Valor numério 2"));
+        const soma = document.getElementById("soma");
+        const s = (n1 ** n2);
+        document.writeln(`${nome}<br>`);
+        document.writeln(`${s}   <br>`);
+        //.toFixed(2).replace('.', ',')
+        
+        console.log(5+3)
+        console.log(5-3)
+        console.log(5/3)
+        console.log(9%2)
+        console.log(5**3)
+        console.log((3+4)/2)
+
+        var n = 3;
+        n **= 10;
+
+        console.log(n)  
+
+        if (8 === '8' || 7 === '8' && 10 == '10') {
+            document.writeln("True")
+        } else {
+            document.writeln("False")
+        }
+        //Primeiro o operador aritmético e depois o lógico
+
+        if(10 - 5 <= 4) {
+            document.writeln('Falso')
+        } else {
+            document.writeln('Verdadeiro')
+        }
+        
+        10 > 7 ?'Aprovado':'Reprovado' // "IF" reduzido
+        
+    </script>
+</body>
+</html>

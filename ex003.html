@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conodições - Detran</title>
+</head>
+<body>
+    <h1>Sistema de Nacionalidade</h1>
+    <input type="text" name="textver" id="textver">
+    <input type="button" value="verificar" onclick="nacionalidade()">
+    <div id="res"></div>
+    <script>
+        
+        function nacionalidade() {
+           let input = document.getElementById('textver');
+           let answer = document.getElementById('res');
+           let content = input.value;
+           if (content === "Brasileiro") {
+             answer.innerHTML = `Sua nacionalidade é ${content}`
+           } else {
+            answer.innerHTML = `Sua nacionalidade é bruh`
+           }
+
+        }
+    </script>
+</body>
+</html>

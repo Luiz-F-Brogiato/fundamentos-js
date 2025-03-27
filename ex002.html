@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo a suar DOM</title>
+    <style>
+        body {
+            background-color: rgb(68, 125, 199);
+            color: white;
+            font: Normal 18px arial;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Inciando estudos com DOM</h1>
+    <p>O resultado:</p>
+    <p>Aprendendo a usar <strong>DOM</strong> em <strong>javascript <storng> <p>
+    <div id="div">Clique em mim</div>
+
+    <script>
+        var corpo = document.body
+        var pi = document.getElementsByTagName('p')[1];//0 é o primeiro parágrafo
+        window.document.writeln(pi.innerHTML)/* Se colocar o innertext, o document não pega
+        sub elementos, como a tag strong */
+        //corpo.style.background = 'black'
+        var d = document.getElementById('div');
+        var div = document.querySelector('div#div');
+        /* d.style.background = 'green' */
+        if (d.innerText.lenght >= 5) {
+            d.style.background = 'purple'
+        }
+
+    </script>
+</body>
+</html>
