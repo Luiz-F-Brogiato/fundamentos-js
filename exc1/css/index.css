@@ -9,10 +9,11 @@ header {
 }
 
 section {
+    text-align: center;
     background-color: white;
     border-radius: 10px;
-    padding: 15px;
-    width: 31, 25em;
+    padding: 2rem;
+    width: fit-content;
     margin: auto;
     box-sizing: 5px 5px 10px rgba(0, 0, 0, 0.404);
 }
@@ -21,4 +22,5 @@ footer {
     color: white;
     text-align: center;
     font-style: italic;
+    padding: 1.6%;
 }
