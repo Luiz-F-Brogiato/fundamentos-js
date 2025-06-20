@@ -1,4 +1,4 @@
-function calc() {
+function calc(){
     let inicio = document.getElementById('n');
     let res = document.getElementById('res');
     let number = Number(inicio.value); 
