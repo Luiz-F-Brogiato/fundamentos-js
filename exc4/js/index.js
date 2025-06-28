@@ -6,7 +6,7 @@ function calc(){
     res.innerHTML = `Os resultado são: <br>`;
     for (let i = 1; i <= max; i++) {
         let calc = number * i;
-        res.innerHTML += ` ${number} x ${i} = ${calc} <br> `; 
+        res.innerHTML += ` ${number} x  ${i} = ${calc} <br> `; 
     }
 
 }
